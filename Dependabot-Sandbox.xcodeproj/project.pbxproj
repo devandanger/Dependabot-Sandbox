@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97A9CB2E24C2128F00F6F9DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9CB2D24C2128F00F6F9DA /* AppDelegate.swift */; };
+		97A9CB3024C2128F00F6F9DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9CB2F24C2128F00F6F9DA /* SceneDelegate.swift */; };
+		97A9CB3224C2128F00F6F9DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9CB3124C2128F00F6F9DA /* ViewController.swift */; };
+		97A9CB3524C2128F00F6F9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A9CB3324C2128F00F6F9DA /* Main.storyboard */; };
+		97A9CB3724C2129200F6F9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A9CB3624C2129200F6F9DA /* Assets.xcassets */; };
+		97A9CB3A24C2129200F6F9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97A9CB3824C2129200F6F9DA /* LaunchScreen.storyboard */; };
+		97A9CB4524C2129200F6F9DA /* Dependabot_SandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9CB4424C2129200F6F9DA /* Dependabot_SandboxTests.swift */; };
+		97A9CB5024C2129200F6F9DA /* Dependabot_SandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9CB4F24C2129200F6F9DA /* Dependabot_SandboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97A9CB4124C2129200F6F9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A9CB2224C2128F00F6F9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A9CB2924C2128F00F6F9DA;
+			remoteInfo = "Dependabot-Sandbox";
+		};
+		97A9CB4C24C2129200F6F9DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A9CB2224C2128F00F6F9DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A9CB2924C2128F00F6F9DA;
+			remoteInfo = "Dependabot-Sandbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97A9CB2A24C2128F00F6F9DA /* Dependabot-Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dependabot-Sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A9CB2D24C2128F00F6F9DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97A9CB2F24C2128F00F6F9DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97A9CB3124C2128F00F6F9DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97A9CB3424C2128F00F6F9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97A9CB3624C2129200F6F9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97A9CB3924C2129200F6F9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97A9CB3B24C2129200F6F9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A9CB4024C2129200F6F9DA /* Dependabot-SandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dependabot-SandboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A9CB4424C2129200F6F9DA /* Dependabot_SandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependabot_SandboxTests.swift; sourceTree = "<group>"; };
+		97A9CB4624C2129200F6F9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97A9CB4B24C2129200F6F9DA /* Dependabot-SandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dependabot-SandboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A9CB4F24C2129200F6F9DA /* Dependabot_SandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependabot_SandboxUITests.swift; sourceTree = "<group>"; };
+		97A9CB5124C2129200F6F9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97A9CB2724C2128F00F6F9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A9CB3D24C2129200F6F9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A9CB4824C2129200F6F9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97A9CB2124C2128F00F6F9DA = {
+			isa = PBXGroup;
+			children = (
+				97A9CB2C24C2128F00F6F9DA /* Dependabot-Sandbox */,
+				97A9CB4324C2129200F6F9DA /* Dependabot-SandboxTests */,
+				97A9CB4E24C2129200F6F9DA /* Dependabot-SandboxUITests */,
+				97A9CB2B24C2128F00F6F9DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97A9CB2B24C2128F00F6F9DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97A9CB2A24C2128F00F6F9DA /* Dependabot-Sandbox.app */,
+				97A9CB4024C2129200F6F9DA /* Dependabot-SandboxTests.xctest */,
+				97A9CB4B24C2129200F6F9DA /* Dependabot-SandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97A9CB2C24C2128F00F6F9DA /* Dependabot-Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				97A9CB2D24C2128F00F6F9DA /* AppDelegate.swift */,
+				97A9CB2F24C2128F00F6F9DA /* SceneDelegate.swift */,
+				97A9CB3124C2128F00F6F9DA /* ViewController.swift */,
+				97A9CB3324C2128F00F6F9DA /* Main.storyboard */,
+				97A9CB3624C2129200F6F9DA /* Assets.xcassets */,
+				97A9CB3824C2129200F6F9DA /* LaunchScreen.storyboard */,
+				97A9CB3B24C2129200F6F9DA /* Info.plist */,
+			);
+			path = "Dependabot-Sandbox";
+			sourceTree = "<group>";
+		};
+		97A9CB4324C2129200F6F9DA /* Dependabot-SandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				97A9CB4424C2129200F6F9DA /* Dependabot_SandboxTests.swift */,
+				97A9CB4624C2129200F6F9DA /* Info.plist */,
+			);
+			path = "Dependabot-SandboxTests";
+			sourceTree = "<group>";
+		};
+		97A9CB4E24C2129200F6F9DA /* Dependabot-SandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97A9CB4F24C2129200F6F9DA /* Dependabot_SandboxUITests.swift */,
+				97A9CB5124C2129200F6F9DA /* Info.plist */,
+			);
+			path = "Dependabot-SandboxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97A9CB2924C2128F00F6F9DA /* Dependabot-Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A9CB5424C2129200F6F9DA /* Build configuration list for PBXNativeTarget "Dependabot-Sandbox" */;
+			buildPhases = (
+				97A9CB2624C2128F00F6F9DA /* Sources */,
+				97A9CB2724C2128F00F6F9DA /* Frameworks */,
+				97A9CB2824C2128F00F6F9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dependabot-Sandbox";
+			productName = "Dependabot-Sandbox";
+			productReference = 97A9CB2A24C2128F00F6F9DA /* Dependabot-Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97A9CB3F24C2129200F6F9DA /* Dependabot-SandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A9CB5724C2129200F6F9DA /* Build configuration list for PBXNativeTarget "Dependabot-SandboxTests" */;
+			buildPhases = (
+				97A9CB3C24C2129200F6F9DA /* Sources */,
+				97A9CB3D24C2129200F6F9DA /* Frameworks */,
+				97A9CB3E24C2129200F6F9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97A9CB4224C2129200F6F9DA /* PBXTargetDependency */,
+			);
+			name = "Dependabot-SandboxTests";
+			productName = "Dependabot-SandboxTests";
+			productReference = 97A9CB4024C2129200F6F9DA /* Dependabot-SandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97A9CB4A24C2129200F6F9DA /* Dependabot-SandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A9CB5A24C2129200F6F9DA /* Build configuration list for PBXNativeTarget "Dependabot-SandboxUITests" */;
+			buildPhases = (
+				97A9CB4724C2129200F6F9DA /* Sources */,
+				97A9CB4824C2129200F6F9DA /* Frameworks */,
+				97A9CB4924C2129200F6F9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97A9CB4D24C2129200F6F9DA /* PBXTargetDependency */,
+			);
+			name = "Dependabot-SandboxUITests";
+			productName = "Dependabot-SandboxUITests";
+			productReference = 97A9CB4B24C2129200F6F9DA /* Dependabot-SandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97A9CB2224C2128F00F6F9DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Progressive Insurance";
+				TargetAttributes = {
+					97A9CB2924C2128F00F6F9DA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					97A9CB3F24C2129200F6F9DA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 97A9CB2924C2128F00F6F9DA;
+					};
+					97A9CB4A24C2129200F6F9DA = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 97A9CB2924C2128F00F6F9DA;
+					};
+				};
+			};
+			buildConfigurationList = 97A9CB2524C2128F00F6F9DA /* Build configuration list for PBXProject "Dependabot-Sandbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97A9CB2124C2128F00F6F9DA;
+			productRefGroup = 97A9CB2B24C2128F00F6F9DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97A9CB2924C2128F00F6F9DA /* Dependabot-Sandbox */,
+				97A9CB3F24C2129200F6F9DA /* Dependabot-SandboxTests */,
+				97A9CB4A24C2129200F6F9DA /* Dependabot-SandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97A9CB2824C2128F00F6F9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A9CB3A24C2129200F6F9DA /* LaunchScreen.storyboard in Resources */,
+				97A9CB3724C2129200F6F9DA /* Assets.xcassets in Resources */,
+				97A9CB3524C2128F00F6F9DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A9CB3E24C2129200F6F9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A9CB4924C2129200F6F9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97A9CB2624C2128F00F6F9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A9CB3224C2128F00F6F9DA /* ViewController.swift in Sources */,
+				97A9CB2E24C2128F00F6F9DA /* AppDelegate.swift in Sources */,
+				97A9CB3024C2128F00F6F9DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A9CB3C24C2129200F6F9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A9CB4524C2129200F6F9DA /* Dependabot_SandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A9CB4724C2129200F6F9DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A9CB5024C2129200F6F9DA /* Dependabot_SandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97A9CB4224C2129200F6F9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97A9CB2924C2128F00F6F9DA /* Dependabot-Sandbox */;
+			targetProxy = 97A9CB4124C2129200F6F9DA /* PBXContainerItemProxy */;
+		};
+		97A9CB4D24C2129200F6F9DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97A9CB2924C2128F00F6F9DA /* Dependabot-Sandbox */;
+			targetProxy = 97A9CB4C24C2129200F6F9DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97A9CB3324C2128F00F6F9DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97A9CB3424C2128F00F6F9DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97A9CB3824C2129200F6F9DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97A9CB3924C2129200F6F9DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97A9CB5224C2129200F6F9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97A9CB5324C2129200F6F9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97A9CB5524C2129200F6F9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z882NRJX6V;
+				INFOPLIST_FILE = "Dependabot-Sandbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mightystrong.Dependabot-Sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97A9CB5624C2129200F6F9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z882NRJX6V;
+				INFOPLIST_FILE = "Dependabot-Sandbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mightystrong.Dependabot-Sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97A9CB5824C2129200F6F9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z882NRJX6V;
+				INFOPLIST_FILE = "Dependabot-SandboxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mightystrong.Dependabot-SandboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dependabot-Sandbox.app/Dependabot-Sandbox";
+			};
+			name = Debug;
+		};
+		97A9CB5924C2129200F6F9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z882NRJX6V;
+				INFOPLIST_FILE = "Dependabot-SandboxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mightystrong.Dependabot-SandboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dependabot-Sandbox.app/Dependabot-Sandbox";
+			};
+			name = Release;
+		};
+		97A9CB5B24C2129200F6F9DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z882NRJX6V;
+				INFOPLIST_FILE = "Dependabot-SandboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mightystrong.Dependabot-SandboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dependabot-Sandbox";
+			};
+			name = Debug;
+		};
+		97A9CB5C24C2129200F6F9DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z882NRJX6V;
+				INFOPLIST_FILE = "Dependabot-SandboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mightystrong.Dependabot-SandboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dependabot-Sandbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97A9CB2524C2128F00F6F9DA /* Build configuration list for PBXProject "Dependabot-Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A9CB5224C2129200F6F9DA /* Debug */,
+				97A9CB5324C2129200F6F9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A9CB5424C2129200F6F9DA /* Build configuration list for PBXNativeTarget "Dependabot-Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A9CB5524C2129200F6F9DA /* Debug */,
+				97A9CB5624C2129200F6F9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A9CB5724C2129200F6F9DA /* Build configuration list for PBXNativeTarget "Dependabot-SandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A9CB5824C2129200F6F9DA /* Debug */,
+				97A9CB5924C2129200F6F9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97A9CB5A24C2129200F6F9DA /* Build configuration list for PBXNativeTarget "Dependabot-SandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97A9CB5B24C2129200F6F9DA /* Debug */,
+				97A9CB5C24C2129200F6F9DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97A9CB2224C2128F00F6F9DA /* Project object */;
+}
